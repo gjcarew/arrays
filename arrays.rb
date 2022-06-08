@@ -54,3 +54,8 @@ puts skis
 puts ski_width
 puts ski_weight_kg
 puts ski_fun
+# Writing about my skis
+# The .take method will return the first n elements of an array.
+# The .join method will return a string of all elements separated by a separator paramater.
+# The .last method will return the last element of an array.
+puts "The skis I own are #{skis.take(3).join(", ")} and #{skis.last}."
